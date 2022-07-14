@@ -1,5 +1,5 @@
 ## jupyter notebook에 가상환경 kernel 추가
-python -m ipykernel install --user --name 가상환경 이름 --display-name 커널 이름
+python -m ipykernel install --user --name 가상환경 이름 --display-name 커널 이름(conda env)
 
 ## 커널 제거
 jupyter kernelspec uninstall 가상환경이름
