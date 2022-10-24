@@ -1,5 +1,5 @@
 ## jupyter notebook에 가상환경 kernel 추가
-python -m ipykernel install --user --name 가상환경 이름 --display-name 커널 이름(conda env)<br/>
+python -m ipykernel install --user --name 커널 이름(conda env) --display-name 주피터에 표시될 이름<br/>
 conda create -n <환경명> python=<버전
 
 
