@@ -12,3 +12,8 @@ jupyter kernelspec uninstall 가상환경이름
 
 ## samtopls
 export PATH=/home/ychwang/SpliceFinder/samtools-1.14/sf/bin:$PATH
+
+## json
+import json+
+with open("data.json", "r") as json_file:
+    data = json.load(json_file)
